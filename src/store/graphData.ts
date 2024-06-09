@@ -126,7 +126,7 @@ export const graphData: GraphData = {
     { id: "v8_to_v7", from: "v8", to: "v7" },
     { id: "v9_to_v10", from: "v9", to: "v10" },
     //{ id: "v10_to_v9", from: "v10", to: "v9" },
-    //{ id: "v9_to_v60", from: "v9", to: "v60" },
+    { id: "v60_to_v9", from: "v60", to: "v9" },
     { id: "v61_to_v12", from: "v61", to: "v12" },
     { id: "v9_to_v11", from: "v9", to: "v11" },
     { id: "v9_to_v12", from: "v9", to: "v12" },
