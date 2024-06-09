@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const API_BASE_URL = import.meta.env.PROD
   ? "/"
-  : "https://pmap-tqot.onrender.com";
+  : "http://localhost:8081";
 
 
   
