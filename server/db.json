@@ -33,7 +33,7 @@
     {
       "id": "f6g7",
       "categoryId": "e928",
-      "name": "CHS BLDG",
+      "name": "CELA DEP",
       "desc": " Used by Medical Students"
     },
     {
@@ -51,7 +51,7 @@
     {
       "id": "i9j0",
       "categoryId": "e928",
-      "name": "Automative Bldg",
+      "name": "Technical Vocational Bldg.",
       "desc": "Used for automotive purposes."
     },
     {
@@ -64,7 +64,7 @@
       "id": "k1l2",
       "categoryId": "17b0",
       "name": "VEHICLE PARKING",
-      "desc":"School Parking Lot."
+      "desc": "School Parking Lot."
     },
     {
       "id": "l2m3",
@@ -75,8 +75,8 @@
     {
       "id": "m3n4",
       "categoryId": "87b0",
-      "name": "MBA Eng.",
-      "desc": "MBA Eng., used by various department of students."
+      "name": "Engineering Bldg.",
+      "desc": "Engineering Bldg., used by various department of students."
     },
     {
       "id": "n4o5",
@@ -95,6 +95,39 @@
       "categoryId": "e928",
       "name": "Riverside Bldg",
       "desc": "Building used by Medical Students"
+    },
+    {
+      "id": "q8r9",
+      "categoryId": "e928",
+      "name": "Finance Purchasing Dep/Teller",
+      "desc": "Building for financial business"
+
+    },
+    {
+      "id": "q9r9",
+      "categoryId": "58a9",
+      "name": "Atrium",
+      "desc": "Atrium Between PTC and CMA"
+
+    },
+    {
+      "id": "q8s3",
+      "categoryId": "e928",
+      "name": "Registrar Office",
+      "desc": "Registar's office"
+
+    },
+    {
+      "id": "q1r9",
+      "categoryId": "e928",
+      "name": "CMA HALL",
+      "desc": "CMA HALL"
+    },
+    {
+      "id": "q1s9",
+      "categoryId": "e928",
+      "name": "OP",
+      "desc": "OP/ Marketing Department"
     }
   ],
   "categories": [

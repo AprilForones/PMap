@@ -14,7 +14,7 @@ function Positions({
   navigation,
 }: PositionsProps) {
   const positionBackgroundColor = "#4285f4";
-  const positionBackgroundRadius = positionRadius + 7;
+  const positionBackgroundRadius = positionRadius + 35;
   const positonBackgroundOpacity = 0.2;
   const startVertex = graphData.vertices.find(
     (v) => v.id === navigation?.start
@@ -52,7 +52,7 @@ function Positions({
         id="circle-animation"
         cx={startVertex?.cx}
         cy={startVertex?.cy}
-        fill="none"
+        fill="Green"
         stroke="white"
         strokeWidth={2}
         r={positionRadius}
