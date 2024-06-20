@@ -4,19 +4,15 @@ import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 
 // https://vitejs.dev/config/
 
-export default defineConfig(({ mode }) => {
-  return {
-    plugins: [react(), ViteImageOptimizer({})],
-    resolve: {
-      alias: {
-        "@": "/src",
+export default defineConfig({
+  plugins: [ViteImageOptimizer()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://main.d2k93d841gralt.amplifyapp.com',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
-    build: {
-      outDir: "dist",
-    },
-    esbuild: {
-      pure: mode === "production" ? ["console.log"] : [],
-    },
-  };
+  },
 });
