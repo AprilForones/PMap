@@ -8,61 +8,61 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
       <path
         id="FrontEntrance"
         className={`${className} object`}
-       d="M8.402 149.554H35.597V317.432H8.402z"
+         d="M164 1013H493V2097H164z"
         onClick={handleObjectClick}
-      />
-      <path
-        id="BASIC ED BLDG"
-        className={`${className} object`}
-         d="M69.966 19.326H127.54299999999999V124.71100000000001H69.966z"
-        onClick={handleObjectClick}
-      />
+        />
+       <path
+          id="BASIC ED BLDG"
+          className={`${className} object`}
+           d="M950.5 617.5H1221.5V767.5H950.5z"
+          onClick={handleObjectClick}
+        /> 
       <path
         id="GYMNASIUM"
         className={`${className} object`}
-       d="M188.217 18.791H325.299V125.816H188.217z"
+       d="M1641.5 246.5H2540.5V758.5H1641.5z"
         onClick={handleObjectClick}
       />
       <path
         id="VEHICLE PARKING"
         className={`${className} object`}
-        d="M68.053 142.307H153.667V219.84199999999998H68.053z"
+        d="M857.5 1002.5H1570.5V1387.5H857.5z"
         onClick={handleObjectClick}
       />
       <path
          id="PHINMA AVE"
         className={`${className} object`}
-        d="M186.472 141.144H336.674V218.679H186.472z"
+        d="M1747.5 932.5H2682.5V1387.5H1747.5z"
         onClick={handleObjectClick}
       />
       <path
         id="PHINMA FOREST"
         className={`${className} object`}
-         d="M187.037 279.761H336.24V418.745H187.037z"
+          d="M1747.5 1870.5H2680.5V2814.5H1747.5z"
         onClick={handleObjectClick}
       />
       <path
-        id="CHS BLDG"
+        id="CELA DEP"
         className={`${className} object`}
-        d="M134.024 18.326H183.118V125.9H134.024z"
+         d="M1332.5 229.5H1574.5V762.5H1332.5z"
         onClick={handleObjectClick}
       />
       <path
         id="Riverside Bldg"
         className={`${className} object`}
-        d="M393.399 12.274H480.998V102.465H393.399z"
+        d="M3030.5 227.5H3755.5V965.5H3030.5z"
         onClick={handleObjectClick}
       />
       <path
         id="STUDENT PLAZA"
         className={`${className} object`}
-         d="M187.037 212.767H336.24V279.193H187.037z"
+         d="M1747.5 1444.5H2540.5V1865.5H1747.5z"
         onClick={handleObjectClick}
       />
       <path
         id="NORTH HALL"
         className={`${className} object`}
-         d="M123.292 418.825H360.158V460.93399999999997H123.292z"
+         d="M1430.5 2825.5H2680.5V3035.5H1430.5z"
         onClick={handleObjectClick}
       />
       <path
@@ -72,18 +72,19 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
         onClick={handleObjectClick}
       />
        <path
-        id="MBA Eng."
+        id="Engineering Bldg."
         className={`${className} object`}
-         d="M338.317 71.303H362.745V132.372H338.317z"
+         d="M2545.5 229.5H3027.5V525.5H2545.5z"
         onClick={handleObjectClick}
       />
       <path
         id="MBA Hall"
         className={`${className} object`}
-       d="M338.223 133.774H362.651V194.84300000000002H338.223z"
+       d="M2688.5 530.5H3027.5V3035.5H2688.5z"
         onClick={handleObjectClick}
       />
-       <path
+      
+       {/* <path
         id="MBA Hall"
         className={`${className} object`}
        d="M337.911 196.016H362.339V220.611H337.911z"
@@ -100,38 +101,63 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
         className={`${className} object`}
        d="M337.911 299.021H362.339V382.57300000000004H337.911z"
         onClick={handleObjectClick}
-      />
+      /> */}
       <path
         id="OP"
         className={`${className} object`}
-        d="M74.59 242.987H91.273V262.45H74.59z"
+        d="M859.5 1619.5H1157.5V1832.5H859.5z"
         onClick={handleObjectClick}
       />
       <path
         id="FVR BLDG"
         className={`${className} object`}
-         d="M74.894 216.648H152.05200000000002V242.367H74.894z"
+         d="M860.5 1396.5H1432.5V1614.5H860.5z"
         onClick={handleObjectClick}
       />
       <path
         id="CSDL/ITS BLDG"
         className={`${className} object`}
-        d="M39.046 184.327H69.334V250.03199999999998H39.046z" 
+        d="M594.5 1161.5H796.5V1615.5H594.5z"
         onClick={handleObjectClick}
       />
       <path
         id="CMA BLDG"
         className={`${className} object`}
-         d="M72.661 287.848H149.26999999999998V412.552H72.661z"
+         d="M1144 2002H1740V2812H1144z"
         onClick={handleObjectClick}
       />
       <path
-        id="Automative Bldg"
+        id="Technical Vocational Bldg."
         className={`${className} object`}
-         d="M71.073 418.219H116.627V461.638H71.073z"
+         d="M1141.5 2825.5H1425.5V3035.5H1141.5z"
         onClick={handleObjectClick}
       />
-       <ellipse
+      <path
+        id="Finance Purchasing Dep/Teller"
+        className={`${className} object`}
+         d="M1437.5 1396.5H1583.5V1865.5H1437.5z"
+        onClick={handleObjectClick}
+      />
+       <path
+        id="Atrium"
+        className={`${className} object`}
+          d="M500.5 1870.5H1431.5V1988.5H500.5z"
+        onClick={handleObjectClick}
+      />
+       <path
+        id="Registrar Office"
+        className={`${className} object`}
+          d="M500.5 1870.5H1431.5V1988.5H500.5z"
+        onClick={handleObjectClick}
+      />
+       <path
+        id="CMA HALL"
+        className={`${className} object`}
+         d="M1591 1399H1740V1986H1591z"
+        onClick={handleObjectClick}
+      />
+      
+       {/* <ellipse
       id="ATRIUM"
        cx={71.4} 
        cy={275.216} 
@@ -139,7 +165,8 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
        ry={2.809} 
         className={`${className} object`}
         onClick={handleObjectClick}
-      /> 
+      />  */}
+
       {/* <path
         id="ATRIUM"
         className={`${className} object`}
