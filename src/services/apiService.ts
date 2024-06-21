@@ -2,8 +2,8 @@ import axios from "axios";
 
 export const API_BASE_URL = import.meta.env.PROD
   ? "/"
-  :"https://main.d2k93d841gralt.amplifyapp.com";
-  //: "http://localhost:8081";
+  //:"https://main.d2k93d841gralt.amplifyapp.com";
+  : "http://localhost:8081";
 
 
   
@@ -13,3 +13,5 @@ const apiService = axios.create({
 });
 
 export default apiService;
+
+
