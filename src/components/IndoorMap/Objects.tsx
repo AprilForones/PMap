@@ -17,6 +17,12 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
            d="M950.5 617.5H1221.5V767.5H950.5z"
           onClick={handleObjectClick}
         /> 
+       <path
+          id="BASIC ED BLDG"
+          className={`${className} object`}
+           d="M950.5 617.5H1221.5V767.5H950.5z"
+          onClick={handleObjectClick}
+        /> 
       <path
         id="GYMNASIUM"
         className={`${className} object`}
@@ -39,6 +45,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
         id="PHINMA FOREST"
         className={`${className} object`}
           d="M1747.5 1870.5H2680.5V2814.5H1747.5z"
+
         onClick={handleObjectClick}
       />
       <path
@@ -83,6 +90,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
        d="M2688.5 530.5H3027.5V3035.5H2688.5z"
         onClick={handleObjectClick}
       />
+      
       <path
         id="OP"
         className={`${className} object`}
@@ -114,6 +122,30 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
         onClick={handleObjectClick}
       />
       <path
+        id="Technical Vocational Bldg."
+        className={`${className} object`}
+         d="M1437.5 1396.5H1583.5V1865.5H1437.5z"
+        onClick={handleObjectClick}
+      />
+       <path
+        id="Atrium"
+        className={`${className} object`}
+          d="M500.5 1870.5H1431.5V1988.5H500.5z"
+        onClick={handleObjectClick}
+      />
+       <path
+        id="Registrar Office"
+        className={`${className} object`}
+          d="M500.5 1870.5H1431.5V1988.5H500.5z"
+        onClick={handleObjectClick}
+      />
+       <path
+        id="CMA HALL"
+        className={`${className} object`}
+         d="M1141.5 2825.5H1425.5V3035.5H1141.5z"
+        onClick={handleObjectClick}
+      />
+      <path
         id="Finance Purchasing Dep/Teller"
         className={`${className} object`}
          d="M1437.5 1396.5H1583.5V1865.5H1437.5z"
@@ -128,7 +160,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
        <path
         id="Registrar Office"
         className={`${className} object`}
-          d="M1162.5 1619.5h269v245h-269v-245z"
+          d="M500.5 1870.5H1431.5V1988.5H500.5z"
         onClick={handleObjectClick}
       />
        <path
@@ -137,6 +169,7 @@ function Objects({ handleObjectClick, className }: ObjectsProps) {
          d="M1591 1399H1740V1986H1591z"
         onClick={handleObjectClick}
       />
+      
     </g>
   );
 }

@@ -109,7 +109,7 @@
       "desc": "Atrium Between PTC and CMA"
     },
     {
-      "id": "q8s3",
+      "id": "q8r9",
       "categoryId": "e928",
       "name": "Registrar Office",
       "desc": "Registar's office"
@@ -119,13 +119,9 @@
       "categoryId": "e928",
       "name": "CMA HALL",
       "desc": "CMA HALL"
-    },
-    {
-      "id": "q1s9",
-      "categoryId": "e928",
-      "name": "OP",
-      "desc": "OP/ Marketing Department"
+
     }
+    
   ],
   "categories": [
     {

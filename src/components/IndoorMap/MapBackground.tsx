@@ -1,4 +1,3 @@
-
 import floorplan from "@/assets/img/PHINMAP.svg";
 import { ReactNode } from "react";
 interface MapBackgroundProps {
